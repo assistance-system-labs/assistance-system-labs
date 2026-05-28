@@ -229,5 +229,6 @@ See [`LICENSE`](LICENSE) for details.
 ---
 
 > *"Engineering the digital minds of tomorrow, securing cognitive human sovereignty."*
-
+<div align="center">
 **© 2026 Assistance System Labs. All rights reserved.**
+</div>
