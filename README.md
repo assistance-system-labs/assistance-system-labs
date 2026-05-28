@@ -1,234 +1,175 @@
 <div align="center">
   <img src="jarvis.png" alt="J.A.R.V.I.S. — Just A Rather Very Intelligent System" width="600" />
+
+  # 🤖 J.A.R.V.I.S. — Assistance System Labs
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python)](https://www.python.org/)
+  [![Docker](https://img.shields.io/badge/Docker-24%2B-2496ED?logo=docker)](https://www.docker.com/)
+  [![CUDA](https://img.shields.io/badge/CUDA-12.1%2B-76B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+  <br />
+
+  > *"At your service, sir. All systems operational."*
+  >
+  > **Welcome to Assistance System Labs** — where we turn science fiction into engineering reality. We are an independent research laboratory dedicated to building autonomous, ambient, and deeply intelligent AI assistants that extend human capability.
+
 </div>
 
-# 🤖 J.A.R.V.I.S. — Assistance System Labs (ASL)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python)](https://www.python.org/)
-[![Docker](https://img.shields.io/badge/Docker-24%2B-2496ED?logo=docker)](https://www.docker.com/)
-[![CUDA](https://img.shields.io/badge/CUDA-12.1%2B-76B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-> *"At your service, sir. All systems operational."* — An open research & development laboratory for autonomous AI assistants, multi-agent cognitive architectures, and ubiquitous computing ecosystems.
-
 ---
 
-## 📖 Table of Contents
+## 🧬 Who We Are
 
-- [About](#-about)
-- [Projects](#-projects)
-  - [J.A.R.V.I.S.](#jarvis)
-  - [F.R.I.D.A.Y.](#friday)
-  - [ASL Task-Specific Agents](#asl-task-specific-agents)
-  - [Domain-Expert Assistants](#domain-expert-assistants)
-- [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Verification](#verification)
-- [Research Vectors](#-research-vectors)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+**Assistance System Labs (ASL)** was founded with a single, ambitious conviction: that the AI assistants depicted in fiction — J.A.R.V.I.S., F.R.I.D.A.Y., and the like — should not remain confined to movie screens. They belong in our homes, our workplaces, our hospitals, and our research labs.
 
----
+Based in **Etah, Uttar Pradesh, India**, ASL is a multi-disciplinary collective of AI researchers, systems engineers, interface designers, and domain specialists. We do not build chatbots. We architect **autonomous digital minds** — entities that perceive, reason, remember, and act on behalf of their human operators.
 
-## 📌 About
+Our work is guided by the principle of **Ambient Intelligence (AmI)** : technology so effortlessly woven into the fabric of daily life that it becomes invisible — a seamless cognitive extension of human intent.
 
-**Assistance System Labs (ASL)** is a research hub based in Etah, Uttar Pradesh, India. We design, train, and deploy autonomous AI assistants that operate across personal, corporate, and scientific environments — moving beyond chatbots to architect **autonomous digital minds** — much like Tony Stark's iconic J.A.R.V.I.S.
-
-Our guiding principle is **Ambient Intelligence (AmI)**: technology so seamlessly integrated into environments that it becomes an invisible cognitive extension of human intent.
-
-| 🧠 Core Attribute | ⚡ Capability |
+| 🧠 Core Attribute | ⚡ What It Means |
 |---|---|
-| **Autonomous Reasoning** | Multi-step chain-of-thought with tool-use execution |
-| **Persistent Memory** | Triple-tier memory fabric retaining identity across years |
-| **Multi-Modal Awareness** | Voice, vision, and IoT telemetry unified into spatial embeddings |
-| **Edge-Native** | Quantized models running 70B parameters on local dual-GPU hardware |
+| **Autonomous Reasoning** | Multi-step chain-of-thought with real-world tool execution |
+| **Persistent Identity** | Memory that spans years, not chat windows |
+| **Multi-Modal Perception** | Voice, vision, and IoT telemetry fused into spatial awareness |
+| **Edge Sovereignty** | 70B-parameter models running entirely on local hardware |
 
 ---
 
-## 🚀 Projects
+## 🚀 Our Assistant Ecosystem
 
-### 🤖 J.A.R.V.I.S.
+Every project at ASL is named with purpose. Our naming convention draws from the fictional AI systems that inspired our founding — each name carries a philosophy and a mission.
 
-**Just A Rather Very Intelligent System** — our flagship centralized assistant for full system control and organizational oversight.
+### 🤖 J.A.R.V.I.S. — *Just A Rather Very Intelligent System*
 
-| Aspect | Detail |
+**Our flagship.** J.A.R.V.I.S. is the central, all-encompassing intelligence that anchors the lab's research. Designed for full system command and organizational oversight, it embodies everything we believe an AI assistant should be.
+
+| Aspect | Capability |
 |---|---|
-| **Paradigm** | Monolithic cognitive core with decentralized sub-agent execution |
-| **Integration** | OS-level bindings, kernel telemetry, smart-space automation |
-| **Modalities** | Real-time audio, live video, streaming text |
-| **Memory** | Triple-tier: Episodic scratchpad, Semantic cache, Vectorized long-term state |
+| **Cognitive Architecture** | Monolithic core orchestrating a swarm of decentralized sub-agents |
+| **System Reach** | Native OS hooks, kernel-level telemetry, smart-environment automation |
+| **Sensory Array** | Simultaneous audio, live video contextualization, and streaming text inference |
+| **Memory Fabric** | Episodic scratchpad → Semantic cache → Vectorized long-term state |
 
-### ⚡ F.R.I.D.A.Y.
+> J.A.R.V.I.S. is not a product. It is our laboratory's north star — a continuously evolving research platform that pushes the boundaries of what an assistant can be.
 
-**Flexible Real-time Intelligent Digital Assistant System** — a lightweight, low-latency counterpart optimized for edge and mobile environments.
+### ⚡ F.R.I.D.A.Y. — *Flexible Real-time Intelligent Digital Assistant System*
 
-- High-frequency quantized model cluster for extreme responsiveness
-- Target use-cases: wearables, drone fleets, real-time dev assistance, telemetry tracking
+A lightweight, low-latency counterpart engineered for edge devices and mobile deployments. Where J.A.R.V.I.S. commands the tower, F.R.I.D.A.Y. operates in the field.
 
-### 🎯 ASL Task-Specific Agents
+- High-frequency quantized inference on constrained hardware
+- Deployed across wearables, drone fleets, and developer workstations
+- Designed for sub-100ms response loops
 
-A fleet of autonomous, non-human-in-the-loop agents for localized engineering and administrative tasks:
+### 🎯 Task-Specific Autonomous Agents
 
-| Agent | Function |
+Not every problem requires a full cognitive architecture. Our task-specific agents are lean, focused, and fully autonomous — solving one class of problem exceptionally well.
+
+| Agent | Mission |
 |---|---|
-| **ASL-DevOps** | Autonomous code analysis, CI debugging, structural optimization |
-| **ASL-SecOps** | Real-time threat intelligence, anomaly detection, patch verification |
+| **ASL-DevOps** | Autonomous codebase analysis, CI/CD debugging, structural refactoring |
+| **ASL-SecOps** | Real-time threat intelligence, anomaly detection, vulnerability patching |
 
-### 🏥 Domain-Expert Assistants
+### 🏥 Domain-Expert Systems
 
-Fine-tuned transformers with deterministic validation layers for high-stakes industries:
+When the stakes involve human lives or financial markets, we deploy fine-tuned transformers with deterministic validation layers — ensuring every output is auditable and reliable.
 
-- **ASL-Medics** — Medical documentation synthesis, clinical trial correlation
-- **ASL-FinTech** — Quantitative market analytics, portfolio risk tracking
+- **ASL-Medics** — Clinical documentation synthesis, trial correlation, cross-reference analysis
+- **ASL-FinTech** — Quantitative market modeling, portfolio risk analytics, macro-trend mapping
 
 ---
 
-## 🧱 Architecture
+## 🧱 How It Works — The ASL Cognitive Pipeline
+
+Every assistant we build flows through the same carefully engineered cognitive pipeline. Understanding this architecture is the key to understanding how we think about AI.
 
 ```
 ┌─────────────────────────────────────────┐
-│     Human Intent & Sensory Input         │
+│        Human Intent & Sensory Input       │
+│     (Voice commands, gestures, context)   │
 └──────────────────┬──────────────────────┘
                    ▼
 ┌─────────────────────────────────────────┐
-│   Asynchronous Multi-Modal Ingestion     │
-│   (Voice, Vision, Telemetry)             │
+│     Asynchronous Multi-Modal Ingestion    │
+│  Audio → STT │ Vision → CLIP │ IoT → MQTT │
 └──────────────────┬──────────────────────┘
                    ▼
 ┌─────────────────────────────────────────┐
-│      ASL Cognitive Router & LLM          │
+│        ASL Cognitive Router & LLM         │
+│  Intent classification → Tool selection   │
+│  → Chain-of-thought → Response synthesis  │
 └────────┬───────────────────┬────────────┘
          ▼                   ▼
 ┌──────────────────┐  ┌──────────────────┐
-│  Memory Core     │  │  Execution Layer │
-│  ChromaDB / Redis│  │  Microservices   │
+│   Memory Core     │  │  Execution Layer  │
+│  ChromaDB / Redis │  │  Microservices    │
+│  Episodic + Vector│  │  Shell / API / IoT│
 └──────────────────┘  └──────────────────┘
 ```
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 The Technology We Work With
+
+Our stack is chosen for performance, portability, and the ability to run at the edge. We favor open-source, self-hostable components wherever possible.
 
 | Layer | Technologies |
 |---|---|
-| **Neural R&D** | PyTorch, Hugging Face Transformers, DeepSpeed, QLoRA |
-| **Inference** | Ollama, vLLM, TensorRT-LLM, Llama.cpp |
-| **Agentic Logic** | LangGraph, AutoGen, Custom `asyncio` loops |
-| **Vector Storage** | ChromaDB, Pinecone, Milvus, pgvector |
-| **Data & Cache** | PostgreSQL, Redis Enterprise, Apache Kafka |
-| **Infrastructure** | Docker, Kubernetes, NVIDIA CUDA |
+| **Model R&D** | PyTorch · Hugging Face Transformers · DeepSpeed · QLoRA |
+| **Inference** | Ollama · vLLM · TensorRT-LLM · Llama.cpp |
+| **Agent Logic** | LangGraph · AutoGen · Custom `asyncio` orchestration loops |
+| **Vector Storage** | ChromaDB · Pinecone · Milvus · pgvector |
+| **Data Layer** | PostgreSQL · Redis Enterprise · Apache Kafka |
+| **Infrastructure** | Docker · Kubernetes · NVIDIA CUDA · Ubuntu Server |
 
 ---
 
-## ⚡ Getting Started
+## 🔬 What We're Researching
 
-### Prerequisites
+### 🧠 Memory That Lasts
 
-- **OS:** Ubuntu 22.04 LTS or later
-- **GPU:** NVIDIA GPU with [CUDA Toolkit 12.1+](https://developer.nvidia.com/cuda-toolkit)
-- **Containers:** [Docker CE](https://docs.docker.com/engine/install/) + [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
+LLMs forget. We're fixing that. Our three-tier memory topology — Episodic Caching, Semantic Similarity Matching, and Chronological Graph Consolidation — allows our assistants to maintain coherent identity and context across months and years of continuous operation.
 
-### Installation
+### ⚡ Intelligence at the Edge
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/assistance-system-labs/jarvis-core-engine.git
-cd jarvis-core-engine
+We believe powerful AI should not require a data center. Through aggressive quantization (`INT4`, `FP4`, `GGUF`) and hardware-aware tensor compilation, we run 70B-parameter models at interactive speeds on consumer dual-GPU workstations.
 
-# 2. Configure environment
-cp .env.example .env
-```
+### 🎤 Understanding the Physical World
 
-Edit `.env` with your local hardware profile:
-
-```env
-LAB_NODE_ID=IN-UP-ETAH-NODE-01
-SYSTEM_LOG_LEVEL=DEBUG
-
-MODEL_BACKEND=vllm
-ACTIVE_CORE_MODEL=asl-jarvis-v2-70b-q4
-CONTEXT_WINDOW_LIMIT=16384
-MAX_TOKEN_OUTPUT=2048
-
-REDIS_CLUSTER_URL=redis://localhost:6379/0
-VECTOR_DB_PATH=/var/lib/asl/vector_store
-
-ALLOW_SYSTEM_COMMANDS=true
-ENABLE_HARDWARE_IOT_BRIDGE=true
-```
-
-```bash
-# 3. Launch the stack
-docker compose -f docker-compose.labs.yml up --build -d
-
-# 4. Check logs
-docker logs -f asl-core-assistant
-```
-
-### Verification
-
-```bash
-python3 tools/verify_node_health.py --node IN-UP-ETAH-NODE-01
-```
+Our assistants don't just read text. They hear sound, see rooms, and sense environmental telemetry — all fused into unified multi-dimensional embeddings that give them genuine spatial awareness of their operator's surroundings.
 
 ---
 
-## 🔬 Research Vectors
+## 👥 Join Us
 
-### 🧠 Cognitive Memory Topologies
+Assistance System Labs is an open research community. We welcome collaborators who share our vision of ambient, autonomous, and trustworthy AI.
 
-To overcome context-window degradation, ASL implements a three-layer memory fabric:
+Before contributing, please review:
 
-1. **Episodic Caching** — Redis-backed key-value store for immediate interaction loops
-2. **Semantic Caching** — Vector similarity matching that reduces inference costs by up to 60%
-3. **Chronological Graph Consolidation** — Background daemons that compress conversational logs into knowledge graphs, preserving the assistant's identity across years of deployment
+1. **Safety** — Any module touching system automation must operate in a sandboxed environment
+2. **Observability** — All pipelines must emit structured JSON logs and follow `async`/`await` patterns
+3. **Reproducibility** — Performance changes must include benchmark reports
 
-### ⚡ Local Compute & Edge Optimization
-
-- Model quantization (`INT4`, `FP4`, `GGUF`) for consumer and enterprise workstations
-- Hardware-aware tensor compilation: 70B parameter models at interactive throughput on dual-GPU setups
-- Split-inference: lightweight local routing with secure offloading of abstract reasoning to private servers
-
-### 🎤 Multi-Modal Telemetry Synchronization
-
-Sound, vision, and IoT telemetry are translated into unified multi-dimensional embeddings, giving the assistant spatial awareness of the operator's physical environment.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full guide.
 
 ---
 
-## 👥 Contributing
+## 📄 License & Contact
 
-We welcome contributions from the global research community. Before submitting a pull request:
+Open-source repositories are distributed under the **MIT License**. Enterprise modules remain under ASL commercial licensing. See [`LICENSE`](LICENSE).
 
-1. **Safety First** — Automated tool-use modules must operate in sandboxed environments
-2. **Structured Logging** — All pipelines must emit JSON-format logs and use `async`/`await` patterns
-3. **Benchmark Reports** — Inference optimizations must include token-per-second benchmarks
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for full guidelines.
-
----
-
-## 📄 License
-
-Open-source repositories are distributed under the **MIT License**. Commercial modules and enterprise cognitive layers remain under ASL enterprise licensing.
-
-See [`LICENSE`](LICENSE) for details.
+| Channel | Detail |
+|---|---|
+| 📍 **Location** | Etah, Uttar Pradesh, India — 207001 |
+| 📧 **Email** | [assistancesystemlabs@gmail.com](mailto:assistancesystemlabs@gmail.com) |
+| 👔 **Team** | AI Architects · Systems Engineers · Interface Designers |
 
 ---
 
-## 📬 Contact
-
-- **Location:** Etah, Uttar Pradesh, India — PIN 207001
-- **Email:** [assistancesystemlabs@gmail.com](mailto:assistancesystemlabs@gmail.com)
-- **Team:** Chief AI Architects, Systems Engineers & Multi-Modal Interface Designers at ASL
-
----
-
-> *"Engineering the digital minds of tomorrow, securing cognitive human sovereignty."*
 <div align="center">
-  <h5>© 2026 Assistance System Labs. All rights reserved.</h5>
+
+  *"Engineering the digital minds of tomorrow, securing cognitive human sovereignty."*
+
+  **© 2026 Assistance System Labs. All rights reserved.**
+
 </div>
