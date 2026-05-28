@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="jarvis.png" alt="J.A.R.V.I.S. — Just A Rather Very Intelligent System" width="600" />
+  <img src="jarvis.png" alt="A.S.L — Assistance System Labs" width="750" />
 
-  # 🤖 J.A.R.V.I.S. — Assistance System Labs
+  # 🤖 Assistance System Labs (A.S.L)
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python)](https://www.python.org/)
