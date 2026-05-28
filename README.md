@@ -1,4 +1,8 @@
-# 🔬 Assistance System Labs (ASL)
+<div align="center">
+  <img src="jarvis.png" alt="J.A.R.V.I.S. — Just A Rather Very Intelligent System" width="600" />
+</div>
+
+# 🤖 J.A.R.V.I.S. — Assistance System Labs (ASL)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python)](https://www.python.org/)
@@ -6,7 +10,7 @@
 [![CUDA](https://img.shields.io/badge/CUDA-12.1%2B-76B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> **An open research & development laboratory for autonomous AI assistants, multi-agent cognitive architectures, and ubiquitous computing ecosystems.**
+> *"At your service, sir. All systems operational."* — An open research & development laboratory for autonomous AI assistants, multi-agent cognitive architectures, and ubiquitous computing ecosystems.
 
 ---
 
@@ -33,15 +37,22 @@
 
 ## 📌 About
 
-**Assistance System Labs (ASL)** is a research hub based in Etah, Uttar Pradesh, India. We design, train, and deploy autonomous AI assistants that operate across personal, corporate, and scientific environments — moving beyond chatbots to architect **autonomous digital minds**.
+**Assistance System Labs (ASL)** is a research hub based in Etah, Uttar Pradesh, India. We design, train, and deploy autonomous AI assistants that operate across personal, corporate, and scientific environments — moving beyond chatbots to architect **autonomous digital minds** — much like Tony Stark's iconic J.A.R.V.I.S.
 
 Our guiding principle is **Ambient Intelligence (AmI)**: technology so seamlessly integrated into environments that it becomes an invisible cognitive extension of human intent.
+
+| 🧠 Core Attribute | ⚡ Capability |
+|---|---|
+| **Autonomous Reasoning** | Multi-step chain-of-thought with tool-use execution |
+| **Persistent Memory** | Triple-tier memory fabric retaining identity across years |
+| **Multi-Modal Awareness** | Voice, vision, and IoT telemetry unified into spatial embeddings |
+| **Edge-Native** | Quantized models running 70B parameters on local dual-GPU hardware |
 
 ---
 
 ## 🚀 Projects
 
-### J.A.R.V.I.S.
+### 🤖 J.A.R.V.I.S.
 
 **Just A Rather Very Intelligent System** — our flagship centralized assistant for full system control and organizational oversight.
 
@@ -52,14 +63,14 @@ Our guiding principle is **Ambient Intelligence (AmI)**: technology so seamlessl
 | **Modalities** | Real-time audio, live video, streaming text |
 | **Memory** | Triple-tier: Episodic scratchpad, Semantic cache, Vectorized long-term state |
 
-### F.R.I.D.A.Y.
+### ⚡ F.R.I.D.A.Y.
 
 **Flexible Real-time Intelligent Digital Assistant System** — a lightweight, low-latency counterpart optimized for edge and mobile environments.
 
 - High-frequency quantized model cluster for extreme responsiveness
 - Target use-cases: wearables, drone fleets, real-time dev assistance, telemetry tracking
 
-### ASL Task-Specific Agents
+### 🎯 ASL Task-Specific Agents
 
 A fleet of autonomous, non-human-in-the-loop agents for localized engineering and administrative tasks:
 
@@ -68,7 +79,7 @@ A fleet of autonomous, non-human-in-the-loop agents for localized engineering an
 | **ASL-DevOps** | Autonomous code analysis, CI debugging, structural optimization |
 | **ASL-SecOps** | Real-time threat intelligence, anomaly detection, patch verification |
 
-### Domain-Expert Assistants
+### 🏥 Domain-Expert Assistants
 
 Fine-tuned transformers with deterministic validation layers for high-stakes industries:
 
@@ -169,7 +180,7 @@ python3 tools/verify_node_health.py --node IN-UP-ETAH-NODE-01
 
 ## 🔬 Research Vectors
 
-### Cognitive Memory Topologies
+### 🧠 Cognitive Memory Topologies
 
 To overcome context-window degradation, ASL implements a three-layer memory fabric:
 
@@ -177,13 +188,13 @@ To overcome context-window degradation, ASL implements a three-layer memory fabr
 2. **Semantic Caching** — Vector similarity matching that reduces inference costs by up to 60%
 3. **Chronological Graph Consolidation** — Background daemons that compress conversational logs into knowledge graphs, preserving the assistant's identity across years of deployment
 
-### Local Compute & Edge Optimization
+### ⚡ Local Compute & Edge Optimization
 
 - Model quantization (`INT4`, `FP4`, `GGUF`) for consumer and enterprise workstations
 - Hardware-aware tensor compilation: 70B parameter models at interactive throughput on dual-GPU setups
 - Split-inference: lightweight local routing with secure offloading of abstract reasoning to private servers
 
-### Multi-Modal Telemetry Synchronization
+### 🎤 Multi-Modal Telemetry Synchronization
 
 Sound, vision, and IoT telemetry are translated into unified multi-dimensional embeddings, giving the assistant spatial awareness of the operator's physical environment.
 
