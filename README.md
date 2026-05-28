@@ -1,178 +1,222 @@
 # 🔬 Assistance System Labs (ASL)
 
-[![Core Architecture](https://shields.io)](https://github.com)
-[![Research Stage](https://shields.io)](https://github.com)
-[![Deployment Focus](https://shields.io)](https://github.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-24%2B-2496ED?logo=docker)](https://www.docker.com/)
+[![CUDA](https://img.shields.io/badge/CUDA-12.1%2B-76B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> **The Premier Research & Development Laboratory Pioneering Next-Generation Autonomous AI Assistants, Multi-Agent Cognitive Architectures, and Ubiquitous Computing Ecosystems.**
-
----
-
-## 🌐 1. Executive Overview & Mission Statement
-
-**Assistance System Labs (ASL)**, operating from Etah, Uttar Pradesh, India, is an advanced cutting-edge research hub dedicated to the conceptualization, training, and deployment of highly intelligent digital entities. We do not just build chatbots; we architect autonomous digital minds. Our lab specializes in transitioning standard large language models into active, contextual, and hardware-integrated AI Assistants that operate seamlessly across personal, corporate, and scientific environments.
-
-Our foundational philosophy relies on **Ambient Intelligence (AmI)**—creating technology that is so deeply integrated into our environments that it acts as an invisible, highly efficient cognitive extension of human intent. Through precise optimization, hybrid cloud-edge topologies, and proprietary cognitive memory fabrics, ASL is redefining how humans interact with machine intelligence.
+> **An open research & development laboratory for autonomous AI assistants, multi-agent cognitive architectures, and ubiquitous computing ecosystems.**
 
 ---
 
-## 🤖 2. Flagship AI Assistant Ecosystem
+## 📖 Table of Contents
 
-Our laboratory actively develops, benchmarks, and maintains a diverse pipeline of AI assistants, each engineered for distinct operational paradigms:
-
-### A. Project J.A.R.V.I.S. (Just A Rather Very Intelligent System)
-Project JARVIS is our premier flagship architecture—a centralized, hyper-cognitive assistant designed for full system control and high-level organizational oversight.
-* **Core Paradigm:** Monolithic cognitive framework with fully decentralized sub-agent execution pipelines.
-* **System Integration:** Deep OS-level bindings, hardware kernel telemetry monitoring, and native smart-space automation hooks.
-* **Neural Subsystems:** Multi-modal sensory processing array (Simultaneous Real-time Audio, Live Video Contextualization, and Streaming Text Inference).
-* **Memory Fabric:** Triple-tier dynamic memory (Episodic scratchpad, Semantic contextual caching, and Vectorized long-term state retention).
-
-### B. Project F.R.I.D.A.Y. (Flexible Real-time Intelligent Digital Assistant System)
-Engineered specifically as a lightweight, low-latency, and agile counter-part to JARVIS, designed for hyper-mobile and edge environments.
-* **Core Paradigm:** High-frequency, small-scale quantized model cluster optimized for extreme responsiveness.
-* **Use Cases:** Wearable integration, drone fleet operations, real-time developer assistance, and rapid telemetry tracking.
-
-### C. Sovereign Task-Specific Autonomous Agents (ASL-STAs)
-A network of independent, non-human-in-the-loop agents trained to solve highly localized engineering and administrative hurdles.
-* **ASL-DevOps Agent:** Autonomous codebase analyzer, continuous integration debugger, and structural optimization bot.
-* **ASL-SecOps Agent:** Real-time threat intelligence parsing, autonomous network traffic anomaly detection, and security patch verification.
-
-### D. Deep Domain-Expert Assistants
-Fine-tuned specialized transformers designed with deterministic validation layers to support high-stakes human industries:
-* **ASL-Medics:** Highly specialized medical documentation synthesis, clinical trial correlation, and cross-reference analysis tools.
-* **ASL-FinTech:** Predictive quantitative market analytics, algorithmic portfolio risk tracking, and micro-economic macro-trend mapping engines.
+- [About](#-about)
+- [Projects](#-projects)
+  - [J.A.R.V.I.S.](#jarvis)
+  - [F.R.I.D.A.Y.](#friday)
+  - [ASL Task-Specific Agents](#asl-task-specific-agents)
+  - [Domain-Expert Assistants](#domain-expert-assistants)
+- [Architecture](#-architecture)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Verification](#verification)
+- [Research Vectors](#-research-vectors)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
-## 🔬 3. Core R&D Vectors & Technical Breakthroughs
+## 📌 About
 
-Our research teams are actively pushing the boundaries of machine intelligence across four primary technical frontiers:
+**Assistance System Labs (ASL)** is a research hub based in Etah, Uttar Pradesh, India. We design, train, and deploy autonomous AI assistants that operate across personal, corporate, and scientific environments — moving beyond chatbots to architect **autonomous digital minds**.
 
-─────────────────────────────────────────┐
-│ Human Intent & Sensory Input │
-└────────────────────┬────────────────────┘
-▼
+Our guiding principle is **Ambient Intelligence (AmI)**: technology so seamlessly integrated into environments that it becomes an invisible cognitive extension of human intent.
+
+---
+
+## 🚀 Projects
+
+### J.A.R.V.I.S.
+
+**Just A Rather Very Intelligent System** — our flagship centralized assistant for full system control and organizational oversight.
+
+| Aspect | Detail |
+|---|---|
+| **Paradigm** | Monolithic cognitive core with decentralized sub-agent execution |
+| **Integration** | OS-level bindings, kernel telemetry, smart-space automation |
+| **Modalities** | Real-time audio, live video, streaming text |
+| **Memory** | Triple-tier: Episodic scratchpad, Semantic cache, Vectorized long-term state |
+
+### F.R.I.D.A.Y.
+
+**Flexible Real-time Intelligent Digital Assistant System** — a lightweight, low-latency counterpart optimized for edge and mobile environments.
+
+- High-frequency quantized model cluster for extreme responsiveness
+- Target use-cases: wearables, drone fleets, real-time dev assistance, telemetry tracking
+
+### ASL Task-Specific Agents
+
+A fleet of autonomous, non-human-in-the-loop agents for localized engineering and administrative tasks:
+
+| Agent | Function |
+|---|---|
+| **ASL-DevOps** | Autonomous code analysis, CI debugging, structural optimization |
+| **ASL-SecOps** | Real-time threat intelligence, anomaly detection, patch verification |
+
+### Domain-Expert Assistants
+
+Fine-tuned transformers with deterministic validation layers for high-stakes industries:
+
+- **ASL-Medics** — Medical documentation synthesis, clinical trial correlation
+- **ASL-FinTech** — Quantitative market analytics, portfolio risk tracking
+
+---
+
+## 🧱 Architecture
+
+```
 ┌─────────────────────────────────────────┐
-│ Asynchronous Multi-Modal Ingestion │
-│ (Voice, Vision, Telemetry) │
-└────────────────────┬────────────────────┘
-▼
+│     Human Intent & Sensory Input         │
+└──────────────────┬──────────────────────┘
+                   ▼
 ┌─────────────────────────────────────────┐
-│ ASL Cognitive Router & LLM │
-└──────────┬────────────────────┬─────────┘
-│ │
-▼ ▼
-┌───────────────────────────────┐ ┌───────────────────────────────┐
-│ Vector & Episodic Memory Core │ │ Autonomous Execution Layer │
-│ (ChromaDB / Redis) │ │ (Microservices / Tool) │
-└───────────────────────────────┘ └───────────────────────────────┘
-
-### 🧠 3.1 Cognitive Memory Topologies
-Standard LLMs suffer from context window degradation and amnesia over extended operational runtimes. ASL is mitigating this via a customized internal database fabric:
-1. **Episodic Caching:** Fast-access key-value in-memory systems (Redis-backed) storing immediate interaction loops.
-2. **Semantic Caching:** Vector similarity matching layers evaluating if incoming requests resemble historically processed prompts, reducing inference costs by up to 60%.
-3. **Chronological Graph Consolidation:** Background processing daemons that convert raw conversational logs into highly compressed knowledge graphs, keeping the AI's "identity" intact over years of deployment.
-
-### ⚡ 3.2 Local Compute & Edge Optimization
-To ensure maximum security and avoid dependency on third-party cloud architectures, our lab specializes in high-fidelity model quantization (`INT4`, `FP4`, `GGUF` formats) optimized for customized consumer and enterprise workstations:
-* Hardware-aware tensor compilation allowing local 70B parameter models to run at interactive token-per-second thresholds on standard dual-GPU setups.
-* Specialized split-inference methodologies where lightweight task routing happens locally, while highly abstract reasoning chains are securely offloaded to private server arrays.
-
-### 🎤 3.3 Multi-Modal Telemetry Synchronization
-Our assistants process environments in unified vectors. Sound waves, visual feeds, and ambient IoT telemetry data are translated into unified multi-dimensional embeddings, giving the assistant acute spatial awareness of its operator's physical environment.
+│   Asynchronous Multi-Modal Ingestion     │
+│   (Voice, Vision, Telemetry)             │
+└──────────────────┬──────────────────────┘
+                   ▼
+┌─────────────────────────────────────────┐
+│      ASL Cognitive Router & LLM          │
+└────────┬───────────────────┬────────────┘
+         ▼                   ▼
+┌──────────────────┐  ┌──────────────────┐
+│  Memory Core     │  │  Execution Layer │
+│  ChromaDB / Redis│  │  Microservices   │
+└──────────────────┘  └──────────────────┘
+```
 
 ---
 
-## 🛠️ 4. Enterprise Tech Stack & Lab Infrastructure
+## 🛠 Tech Stack
 
-The laboratory maintains a robust development pipeline built entirely on production-grade, highly scalable components:
-
-
-| Layer | Component Technology | Functional Application |
-| :--- | :--- | :--- |
-| **Neural R&D** | PyTorch, Hugging Face Transformers, Deepspeed, QLoRA | Model architecture design, training, and parameter-efficient fine-tuning. |
-| **Inference Engines** | Ollama, vLLM, TensorRT-LLM, Llama.cpp | Ultra-fast token generation, batch inference optimization, and hardware acceleration. |
-| **Agentic Logic** | LangGraph, AutoGen, Custom Asyncio Loops | Hierarchical multi-agent networks, tool-use execution, and cyclic graph execution. |
-| **Vector Space** | ChromaDB, Pinecone, Milvus, pgvector | High-density semantic search, vector storage, and Retrieval-Augmented Generation (RAG). |
-| **Data & Cache** | PostgreSQL, Redis Enterprise, Apache Kafka | Dynamic message broker queues, event-driven streaming, and immediate state storage. |
-| **Infrastructure** | Docker, Kubernetes, Linux Core, NVIDIA CUDA | Containerization, bare-metal GPU clustering, cloud-agnostic cluster orchestration. |
+| Layer | Technologies |
+|---|---|
+| **Neural R&D** | PyTorch, Hugging Face Transformers, DeepSpeed, QLoRA |
+| **Inference** | Ollama, vLLM, TensorRT-LLM, Llama.cpp |
+| **Agentic Logic** | LangGraph, AutoGen, Custom `asyncio` loops |
+| **Vector Storage** | ChromaDB, Pinecone, Milvus, pgvector |
+| **Data & Cache** | PostgreSQL, Redis Enterprise, Apache Kafka |
+| **Infrastructure** | Docker, Kubernetes, NVIDIA CUDA |
 
 ---
 
-## 📦 5. Reference Project Initialization (Developer Guide)
-
-For developers collaborating with our lab, this section outlines the protocol to initialize a localized node of the **JARVIS Cognitive Core Environment**:
+## ⚡ Getting Started
 
 ### Prerequisites
-* Linux Environment (Ubuntu 22.04 LTS or higher recommended)
-* NVIDIA GPU with CUDA Toolkit 12.1+ installed
-* Docker CE & NVIDIA Container Toolkit configured
 
-### Phase 1: Environment Setup
-Clone the development infrastructure bundle and set your secure environment parameters:
+- **OS:** Ubuntu 22.04 LTS or later
+- **GPU:** NVIDIA GPU with [CUDA Toolkit 12.1+](https://developer.nvidia.com/cuda-toolkit)
+- **Containers:** [Docker CE](https://docs.docker.com/engine/install/) + [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
+
+### Installation
+
 ```bash
-git clone https://github.com
+# 1. Clone the repository
+git clone https://github.com/assistance-system-labs/jarvis-core-engine.git
 cd jarvis-core-engine
+
+# 2. Configure environment
 cp .env.example .env
 ```
 
-Configure your local hardware profiles within the newly created `.env` file:
+Edit `.env` with your local hardware profile:
+
 ```env
-# Lab System Identity Configuration
 LAB_NODE_ID=IN-UP-ETAH-NODE-01
 SYSTEM_LOG_LEVEL=DEBUG
 
-# Model Telemetry Parameters
 MODEL_BACKEND=vllm
 ACTIVE_CORE_MODEL=asl-jarvis-v2-70b-q4
 CONTEXT_WINDOW_LIMIT=16384
 MAX_TOKEN_OUTPUT=2048
 
-# Memory Subsystem Routes
 REDIS_CLUSTER_URL=redis://localhost:6379/0
 VECTOR_DB_PATH=/var/lib/asl/vector_store
 
-# Local Tool Execution Authorization
 ALLOW_SYSTEM_COMMANDS=true
 ENABLE_HARDWARE_IOT_BRIDGE=true
 ```
 
-### Phase 2: Orchestrated Deployment
-We utilize isolated multi-container topologies to keep the assistant runtime distinct from the vector databases and cache clusters. Run the local initialization script:
 ```bash
-# Pull dependencies, optimize tensor configurations and launch the runtime
-docker-compose -f docker-compose.labs.yml up --build -d
+# 3. Launch the stack
+docker compose -f docker-compose.labs.yml up --build -d
 
-# Verify neural interface engine logs
+# 4. Check logs
 docker logs -f asl-core-assistant
 ```
 
-### Phase 3: Sanity Validation Test
-Ensure your local ingestion pipeline is fully operational by executing a mock query through our system interface tool:
+### Verification
+
 ```bash
 python3 tools/verify_node_health.py --node IN-UP-ETAH-NODE-01
 ```
 
 ---
 
-## 🤝 6. Academic Research & Open-Source Collaboration
+## 🔬 Research Vectors
 
-Assistance System Labs operates under the strong conviction that safe, powerful, and truly valuable AI should be developed transparently. We actively collaborate with global software engineering networks, research institutes, and independent data scientists.
+### Cognitive Memory Topologies
 
-### Contribution Guidelines
-1. **Safety First:** Any modules dealing with automated tool-use or shell executions must adhere to strict sandbox environments. No pull requests containing unsafe token execution loops will be approved.
-2. **Code Cleanliness:** All cognitive pipelines must include extensive structured logging (`JSON-format`) and adhere strictly to asynchronous Python practices (`async/await`).
-3. **Benchmarking:** Any optimization adjustments made to the core inference scripts must be backed by a standard processing benchmark report showing token-per-second fluctuations.
+To overcome context-window degradation, ASL implements a three-layer memory fabric:
+
+1. **Episodic Caching** — Redis-backed key-value store for immediate interaction loops
+2. **Semantic Caching** — Vector similarity matching that reduces inference costs by up to 60%
+3. **Chronological Graph Consolidation** — Background daemons that compress conversational logs into knowledge graphs, preserving the assistant's identity across years of deployment
+
+### Local Compute & Edge Optimization
+
+- Model quantization (`INT4`, `FP4`, `GGUF`) for consumer and enterprise workstations
+- Hardware-aware tensor compilation: 70B parameter models at interactive throughput on dual-GPU setups
+- Split-inference: lightweight local routing with secure offloading of abstract reasoning to private servers
+
+### Multi-Modal Telemetry Synchronization
+
+Sound, vision, and IoT telemetry are translated into unified multi-dimensional embeddings, giving the assistant spatial awareness of the operator's physical environment.
 
 ---
 
-## 📄 7. Licensing, Contact, & Institutional Metadata
+## 👥 Contributing
 
-* **Institutional Framework:** All open-source repositories managed under this organization are distributed under the **MIT License**. Commercial modules and sovereign corporate intelligence layers remain restricted under ASL enterprise licensing agreements.
-* **Laboratory Location:** Etah, Uttar Pradesh, India (PIN: 207001)
-* **Official Communications & Security Inquiries:** [labs@assistancesystemlabs.org](mailto:labs@assistancesystemlabs.org)
-* **Core Maintenance Team:** Chief AI Architects, Systems Engineers, and Multi-Modal Interface Designers at ASL.
+We welcome contributions from the global research community. Before submitting a pull request:
+
+1. **Safety First** — Automated tool-use modules must operate in sandboxed environments
+2. **Structured Logging** — All pipelines must emit JSON-format logs and use `async`/`await` patterns
+3. **Benchmark Reports** — Inference optimizations must include token-per-second benchmarks
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for full guidelines.
 
 ---
-*“Engineering the digital minds of tomorrow, securing cognitive human sovereignty.”*  
+
+## 📄 License
+
+Open-source repositories are distributed under the **MIT License**. Commercial modules and enterprise cognitive layers remain under ASL enterprise licensing.
+
+See [`LICENSE`](LICENSE) for details.
+
+---
+
+## 📬 Contact
+
+- **Location:** Etah, Uttar Pradesh, India — PIN 207001
+- **Email:** [labs@assistancesystemlabs.org](mailto:labs@assistancesystemlabs.org)
+- **Team:** Chief AI Architects, Systems Engineers & Multi-Modal Interface Designers at ASL
+
+---
+
+> *"Engineering the digital minds of tomorrow, securing cognitive human sovereignty."*
+
 **© 2026 Assistance System Labs. All rights reserved.**
