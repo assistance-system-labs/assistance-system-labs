@@ -223,12 +223,12 @@ See [`LICENSE`](LICENSE) for details.
 ## 📬 Contact
 
 - **Location:** Etah, Uttar Pradesh, India — PIN 207001
-- **Email:** [labs@assistancesystemlabs.org](mailto:labs@assistancesystemlabs.org)
+- **Email:** [assistancesystemlabs@gmail.com](mailto:assistancesystemlabs@gmail.com)
 - **Team:** Chief AI Architects, Systems Engineers & Multi-Modal Interface Designers at ASL
 
 ---
 
 > *"Engineering the digital minds of tomorrow, securing cognitive human sovereignty."*
 <div align="center">
-**© 2026 Assistance System Labs. All rights reserved.**
+  <h5>© 2026 Assistance System Labs. All rights reserved.</h5>
 </div>
